@@ -1,5 +1,5 @@
 const list = document.getElementById("list");
-const category_filter = document.getElementById("category_filters");
+const category_filter = document.getElementById("list_category");
 
  let data_api;
  const getData = fetch('http://www.filltext.com/?rows=10&fname={firstName}&lname={lastName}&category=[%22category1%22,%22category2%22,%22category3%22]&pretty=true')
@@ -41,11 +41,12 @@ class Card {
 
     let name = document.createElement("h3");
     name.textContent = `${this.f_name} ${this.l_name}`;
+    name.classList.add('name')
     card.appendChild(name);
 
     // category section
 
-    let category = document.createElement("button");
+    let category = document.createElement("h4");
     category.classList.add("category");
     category.textContent = this.category;
     card.appendChild(category);

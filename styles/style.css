@@ -1,0 +1,89 @@
+#list{
+    width: 50%;
+    margin: 0 auto;
+    
+  
+
+}
+
+header{
+
+    text-align: center;
+
+}
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1AACE9;
+    padding: 10px auto;
+   
+}
+#list_category{
+    margin: 0 auto;
+    margin-bottom: 3%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.cate{
+    background-color: #1AACE9;
+    padding: 5px;
+    color:white;
+    width: 20%;
+    border-radius:5%;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+
+.card{
+    border: solid 2px;
+    border-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    justify-items: center;
+}
+
+.category{
+    background-color: #1AACE9;
+    padding: 2px ;
+    color:white;
+    
+    
+    border-radius: 5%;
+    margin-top: 10%;
+    
+}
+
+
+.initials {
+
+    color: black;
+    float:left;
+    font-weight: bold;
+    font-size: x-large;
+    background-color:blue;
+    border-radius: 50%;
+    padding: 5px;
+    width: 10%;
+    text-align: center;
+  
+    color: aliceblue;
+
+
+   
+  }
+
+
+.name{
+    width: 50%;
+    text-align: center;
+   
+}
+
+ 
