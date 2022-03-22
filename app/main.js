@@ -49,8 +49,6 @@ class Card {
     category.classList.add("category");
     category.textContent = this.category;
     card.appendChild(category);
-
-    category.addEventListener("click", (e) => filterData(e));
   }
 }
 
